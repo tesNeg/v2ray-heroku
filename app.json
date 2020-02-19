@@ -9,11 +9,11 @@
 		},
 		"PORT": {
 			"description": "PORT OF V2Ray PROCESS",
-			"value": 443
+			"value": "443"
 		},
 		"ALTERID": {
 			"description": "ALTERID",
-			"value": 64
+			"value": "64"
 		}
 	},
 	"website": "https://ibcl.us/Heroku-V2Ray_20191014/",
