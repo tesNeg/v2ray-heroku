@@ -7,10 +7,6 @@
 			"description": "V2Ray UUID",
 			"value": "ad806487-2d26-4636-98b6-ab85cc8521f7"
 		},
-		"PORT": {
-			"description": "PORT OF V2Ray PROCESS",
-			"value": "443"
-		},
 		"ALTERID": {
 			"description": "ALTERID",
 			"value": "64"
