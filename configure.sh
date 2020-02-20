@@ -6,9 +6,6 @@ rm -rf /usr/bin/v2ray/geosite.dat /usr/bin/v2ray/geoip.dat
 # V2Ray new configuration
 cat <<-EOF > /etc/v2ray/config.json
 {
-  "log": {
-    "loglevel": "debug"
-  },
   "inbounds": [
   {
     "port": ${PORT},
@@ -17,7 +14,7 @@ cat <<-EOF > /etc/v2ray/config.json
       "clients": [
         {
           "id": "${UUID}",
-          "alterId": ${ALTERID}
+          "alterId": 64
         }
       ]
     },
